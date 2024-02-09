@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Smiling Fish</title>
+    <link rel="stylesheet" type="text/css" href="wxdy.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap"
+      rel="stylesheet"
+    />
+    <script src="wxdy.js"></script>
+    <style>
+      body {
+        transition: background-color 0.5s ease-in-out;
+      }
+
+      a.goodnight {
+        color: #3f5ba2;
+        transition: font-size 0.3s ease-in-out;
+        transition: background-color 0.3s ease-in-out;
+      }
+
+      a.goodnight:hover {
+        color: white;
+      }
+    </style>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var goodnightLink = document.querySelector(".goodnight");
+
+        goodnightLink.addEventListener("mouseover", function () {
+          document.body.style.backgroundColor = "#3f5ba2";
+        });
+
+        goodnightLink.addEventListener("mouseout", function () {
+          document.body.style.backgroundColor = "white";
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div class="fading-image"></div>
+
+    <div class="fading-text" id="poem5">
+      <p>
+        <a href="wxdy08.html" class="goodnight">Good night.</a>
+      </p>
+    </div>
+  </body>
+</html>

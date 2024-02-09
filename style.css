@@ -1,0 +1,57 @@
+.single-day-regular {
+  font-family: "Single Day", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  color: black;
+  font-size: 1.3rem;
+  font-family: "Single Day", cursive;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Single Day", cursive;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.content {
+  flex: 1;
+  width: 80%;
+  max-width: 800px;
+}
+
+#introduction {
+  font-family: "Single Day", Courier, monospace;
+}
+
+.item {
+  font-family: "Single Day", cursive;
+}
+
+footer {
+  font-family: "Single Day", cursive;
+  margin-top: auto;
+  background-color: grey;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: blue;
+  font-size: 110%;
+  transition: color 0.3s ease, font-size 0.3s ease;
+}

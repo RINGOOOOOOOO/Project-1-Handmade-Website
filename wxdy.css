@@ -1,0 +1,182 @@
+.fading-image img {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fading-image.fade-in img {
+  opacity: 1;
+}
+
+.fading-text p {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fading-text.fade-in p {
+  opacity: 1;
+}
+
+#poem1 {
+  font-family: "Single Day", Courier, monospace;
+  text-align: center;
+  position: absolute;
+  font-size: 1.2em;
+  top: 72%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#poem2 {
+  font-family: "Single Day", Courier, monospace;
+  text-align: center;
+  position: absolute;
+  font-size: 1.2em;
+  top: 21%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 5px;
+}
+#poem3 {
+  font-family: "Single Day", Courier, monospace;
+  text-align: center;
+  position: absolute;
+  font-size: 1.2em;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 2px;
+}
+
+#poem4 {
+  font-family: "Single Day", Courier, monospace;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  text-align: center;
+  font-size: 1.2em;
+  overflow: hidden;
+}
+#poem5 {
+  font-family: "Single Day", Courier, monospace;
+  text-align: center;
+  position: absolute;
+  font-size: 1.2em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 1.5px;
+}
+#poem6 {
+  font-family: "Single Day", Courier, monospace;
+  text-align: center;
+  position: absolute;
+  font-size: 1.4em;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 1.3px;
+}
+#poem8 {
+  font-family: "Single Day", Courier, monospace;
+  text-align: center;
+  position: absolute;
+  font-size: 1.3em;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 1.3px;
+}
+#poem11 {
+  font-family: "Single Day", Courier, monospace;
+  text-align: center;
+  position: absolute;
+  font-size: 1.2em;
+  top: 13%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 1.3px;
+}
+
+#poem13 {
+  font-family: "Single Day", Courier, monospace;
+  text-align: center;
+  position: absolute;
+  font-size: 1.2em;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 1.3px;
+}
+
+#poem14 {
+  font-family: "Single Day", Courier, monospace;
+  text-align: center;
+  position: absolute;
+  font-size: 1.2em;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 1.3px;
+}
+
+#poem15 {
+  font-family: "Single Day", Courier, monospace;
+  text-align: center;
+  position: absolute;
+  font-size: 1.2em;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 1.3px;
+}
+#poem16 {
+  font-family: "Single Day", Courier, monospace;
+  text-align: center;
+  position: absolute;
+  font-size: 1.2em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 1.3px;
+}
+#poem17 {
+  font-family: "Single Day", Courier, monospace;
+  text-align: center;
+  position: absolute;
+  font-size: 1.3em;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 1.3px;
+}
+
+a {
+  color: #bfcd5e;
+  transition: font-size 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 120%;
+}
+
+img {
+  border-radius: 30px;
+}
+
+a.kiss {
+  color: black;
+  transition: font-size 0.3s ease-in-out;
+}
+
+a.kiss:hover {
+  color: #3f5ba2;
+}
+
+a.goodnight {
+  color: #3f5ba2;
+  transition: font-size 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+a.goodnight:hover {
+  color: white;
+}
