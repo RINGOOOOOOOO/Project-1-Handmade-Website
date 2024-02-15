@@ -4,12 +4,6 @@
   font-style: normal;
 }
 
-h1 {
-  color: black;
-  font-size: 1.3rem;
-  font-family: "Single Day", cursive;
-}
-
 body {
   display: flex;
   flex-direction: column;
@@ -29,10 +23,25 @@ body {
 
 #introduction {
   font-family: "Single Day", Courier, monospace;
+  text-align: center;
+  position: absolute;
+  font-size: 1.2em;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  letter-spacing: 4px;
 }
-
-.item {
-  font-family: "Single Day", cursive;
+#head {
+  font-family: "Single Day", Courier, monospace;
+  text-align: center;
+  position: absolute;
+  font-size: 1.2em;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  letter-spacing: 4px;
 }
 
 footer {
@@ -51,7 +60,20 @@ footer a {
 }
 
 a:hover {
-  color: blue;
-  font-size: 110%;
+  color: #bfcd5e;
+
   transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+a.one {
+  text-decoration: none;
+  transition: font-size 0.3s ease;
+  color: black;
+}
+
+a.one:hover {
+  text-decoration: none;
+  transition: font-size 0.3s ease;
+  color: #bfcd5e;
+  font-size: 120%;
 }
